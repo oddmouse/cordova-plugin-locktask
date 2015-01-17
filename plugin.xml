@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="com.livesure.plugins.locktask"
+  version="1.0.0">
+  <name>LockTask</name>
+  <description>Access to screen pinning APIs.</description>
+  <license>MIT</license>
+  <engines>
+    <engine name="cordova" version=">=3.0.0"/>
+  </engines>
+  <js-module src="www/LockTask.js" name="LockTask">
+    <clobbers target="plugins.locktask" />
+  </js-module>
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="LockTask">
+        <param name="android-package" value="com.livesure.plugins.LockTask" />
+      </feature>
+    </config-file>
+    <source-file src="src/android/com/livesure/plugins/LockTask.java" target-dir="src/com/livesure/plugins"/>
+  </platform>
+</plugin>
