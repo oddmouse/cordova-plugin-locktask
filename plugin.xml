@@ -4,7 +4,8 @@
   id="com.livesure.plugins.locktask"
   version="1.0.0">
   <name>LockTask</name>
-  <description>Access to screen pinning APIs.</description>
+  <description>A Cordova plugin that provides access to Android’s screen pinning APIs.</description>
+  <keywords>cordova,android,screen pinning,startLockTask,stopLockTask,lollipop,api 21</keywords>
   <license>MIT</license>
   <engines>
     <engine name="cordova" version=">=3.0.0"/>
