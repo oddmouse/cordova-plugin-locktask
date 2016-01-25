@@ -9,7 +9,7 @@ LockTask will only work on Android devices for apps targeting Lollipop (API 21) 
 Navigate to your project root and run:
 
 ```sh
-cordova plugin add https://github.com/livesure/cordova-plugin-locktask.git
+cordova plugin add https://github.com/oddmouse/cordova-plugin-locktask.git
 ```
 
 ## Usage
