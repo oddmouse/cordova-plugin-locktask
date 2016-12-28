@@ -33,7 +33,7 @@ window.plugins.locktask.startLockTask(successCallback, errorCallback, className)
 - **errorCallback:** [Function(error) optional] - error callback, error message string is passed
 
 ```js
-window.plugins.locktask.startLockTask(successCallback, errorCallback);
+window.plugins.locktask.stopLockTask(successCallback, errorCallback);
 ```
 
 ## Device admin
