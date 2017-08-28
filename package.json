@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-locktask",
+  "version": "1.0.0",
+  "description": "A Cordova plugin that provides access to Android’s screen pinning APIs.",
+  "cordova": {
+    "id": "cordova-plugin-locktask",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://oddmouse@github.com/oddmouse/cordova-plugin-locktask.git"
+  },
+  "keywords": [
+    "cordova-android",
+    "cordova",
+    "ecosystem:cordova",
+    "locktask",
+    "screen pinning"
+  ],
+  "author": "Lindy Roquemore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oddmouse/cordova-plugin-locktask/issues"
+  },
+  "homepage": "https://github.com/oddmouse/cordova-plugin-locktask#readme"
+}
